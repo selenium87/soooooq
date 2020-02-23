@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Adhocofupdated" duration-ms="30098" started-at="2020-02-23T10:49:33 PST" finished-at="2020-02-23T10:50:03 PST">
+    <groups>
+    </groups>
+    <test name="Rgression" duration-ms="17369" started-at="2020-02-23T10:49:33 PST" finished-at="2020-02-23T10:49:50 PST">
+      <class name="Adhoc.Home_Regression">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:Adhoc.Home_Regression@2758fe70]" name="beforeClass" is-config="true" duration-ms="12521" started-at="2020-02-23T10:49:33 PST" finished-at="2020-02-23T10:49:45 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:Adhoc.Home_Regression@2758fe70]" name="Login" duration-ms="4821" started-at="2020-02-23T10:49:45 PST" finished-at="2020-02-23T10:49:50 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Adhoc.Home_Regression@2758fe70]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-02-23T10:49:50 PST" finished-at="2020-02-23T10:49:50 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Adhoc.Home_Regression -->
+    </test> <!-- Rgression -->
+    <test name="It" duration-ms="12706" started-at="2020-02-23T10:49:50 PST" finished-at="2020-02-23T10:50:03 PST">
+      <class name="Adhoc.Home_Regression">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:Adhoc.Home_Regression@76707e36]" name="beforeClass" is-config="true" duration-ms="10097" started-at="2020-02-23T10:49:50 PST" finished-at="2020-02-23T10:50:00 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:Adhoc.Home_Regression@76707e36]" name="Login" duration-ms="2607" started-at="2020-02-23T10:50:00 PST" finished-at="2020-02-23T10:50:03 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Adhoc.Home_Regression@76707e36]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-02-23T10:50:03 PST" finished-at="2020-02-23T10:50:03 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Adhoc.Home_Regression -->
+    </test> <!-- It -->
+  </suite> <!-- Adhocofupdated -->
+</testng-results>
